@@ -7,13 +7,13 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://askgamblers.co.il"
 
 export const metadata: Metadata = {
   title: "משחקי קזינו - סלוטים ורולטה 2026",
-  description: "גלו משחקי קזינו באינטרנט מהמפתחים המובילים — סלוטים, רולטה, בלאקג׳ק ועוד עם גרפיקה מרהיבה וזכיות גדולות — מצאו את המשחק שלכם והתחילו לשחק עכשיו",
+  description: "גלו משחקי קזינו אונליין מהמפתחים המובילים — סלוטים, רולטה, בלאקג׳ק ועוד עם גרפיקה מרהיבה וזכיות גדולות — מצאו את המשחק שלכם והתחילו לשחק עכשיו",
   alternates: {
     canonical: `${SITE_URL}/games`,
   },
   openGraph: {
     title: "משחקי קזינו - סלוטים ורולטה 2026",
-    description: "גלו משחקי קזינו באינטרנט מהמפתחים המובילים — סלוטים, רולטה, בלאקג׳ק ועוד",
+    description: "גלו משחקי קזינו אונליין מהמפתחים המובילים — סלוטים, רולטה, בלאקג׳ק ועוד",
     url: `${SITE_URL}/games`,
     images: [{ url: `${SITE_URL}/og-image.png`, width: 1200, height: 630 }],
     type: "website",

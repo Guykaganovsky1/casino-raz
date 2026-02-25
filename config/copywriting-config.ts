@@ -7,7 +7,7 @@
 export const SECTION_COPY = {
   // Casino section
   casinos: {
-    heading: '10 קזינו באינטרנט מאושרים — נבדקו, דורגו ואושרו',
+    heading: '10 קזינו אונליין מאושרים — נבדקו, דורגו ואושרו',
     subheading: 'בחרו מקזינו בדוקים ומדורגים',
     cta: 'גלו את כל 25 בתי הקזינו',
     description: 'כל קזינו בדוק, מדורג וממומלץ על ידי מומחים',
@@ -74,7 +74,7 @@ export const CTA_COPY = {
  * Main value proposition with emotional resonance
  */
 export const HERO_COPY = {
-  headline: 'קזינו באינטרנט בטוח ורווחי — הבחירה המושכלת של אלפי שחקנים',
+  headline: 'קזינו אונליין בטוח ורווחי — הבחירה המושכלת של אלפי שחקנים',
   subheading:
     'אנחנו בדקנו כל פרט של כל קזינו. אתם מקבלים בחירה בטוחה, מובטחת ומדורגת על ידי מומחים אמיתיים. לא עוד בזבוז זמן וכסף על קזינו לא אמינים.',
   cta1: 'בחרו קזינו בטוח היום',
@@ -116,7 +116,7 @@ export interface CopyScore {
  */
 export const AB_TEST_VARIATIONS = {
   heroHeadline: {
-    control: 'קזינו באינטרנט בטוח ורווחי',
+    control: 'קזינו אונליין בטוח ורווחי',
     curiosity: 'החלק הסודי של קזינו שחקנים משתמשים',
     benefit: 'בחרו קזינו שמעניקים ניצחונות אמיתיים',
     urgency: 'מצאו את קזינו המנצח שלכם — מיד',

@@ -123,7 +123,7 @@ export default async function NewsPage() {
                     </h3>
 
                     <p className="text-sm text-text-muted line-clamp-2 flex-1">
-                      {post.excerpt || "מאמר חדש בקטגוריית קזינו באינטרנט"}
+                      {post.excerpt || "מאמר חדש בקטגוריית קזינו אונליין"}
                     </p>
 
                     <Link

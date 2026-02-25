@@ -32,7 +32,7 @@ export default async function CasinosPage() {
       <PageHero
         title="בתי קזינו מומלצים לישראלים"
         subtitle="ביקורות אמיתיות, דירוגים שקופים ובונוסים בלעדיים — כל מה שצריך כדי לשחק חכם"
-        badge="קזינו מומלצים 2025"
+        badge="קזינו מומלצים 2026"
       />
       <Breadcrumb items={[{ label: "דף הבית", href: "/" }, { label: "בתי קזינו" }]} />
       <div className="mx-auto max-w-7xl px-4 py-16">

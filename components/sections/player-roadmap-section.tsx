@@ -50,7 +50,7 @@ export function PlayerRoadmapSection() {
           מפת הדרכים לשחקן הישראלי
         </h2>
         <p className="text-text-secondary max-w-2xl mx-auto leading-relaxed">
-          עולם הקזינו באינטרנט יכול להיות מבלבל. הנה 5 הדברים שחייבים לבדוק לפני שבוחרים קזינו:
+          עולם הקזינו אונליין יכול להיות מבלבל. הנה 5 הדברים שחייבים לבדוק לפני שבוחרים קזינו:
         </p>
       </div>
 
