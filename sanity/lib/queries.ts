@@ -91,7 +91,25 @@ export const POST_BY_SLUG_QUERY = groq`
     seoTitle,
     seoDescription,
     author->{ name, avatar, bio },
-    categories[]->{ _id, name, slug }
+    categories[]->{ _id, name, slug },
+    isMegaGuide,
+    targetKeyword,
+    keywords,
+    estimatedReadTime,
+    relatedCasinos[]->{
+      _id,
+      name,
+      slug,
+      logo,
+      rating,
+      description,
+      bonusTitle,
+      bonusAmount,
+      pros,
+      cons,
+      featured,
+      categories[]->{ _id, name, slug }
+    }
   }
 `;
 

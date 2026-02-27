@@ -71,5 +71,38 @@ export default defineType({
       type: "text",
       validation: (rule) => rule.max(160),
     }),
+    defineField({
+      name: "isMegaGuide",
+      title: "מדריך ענק (3500+ מילים)",
+      type: "boolean",
+      description: "הפעל עבור פוסטים בעלי אורך 3500+ מילים עם טבלת השוואה וכרטיסי קזינו",
+      initialValue: false,
+    }),
+    defineField({
+      name: "targetKeyword",
+      title: "מילת מפתח ראשית",
+      type: "string",
+      description: "המילה/ביטוי המרכזי שאתה ממטרה (לדוג' 'קזינו אונליין בישראל')",
+    }),
+    defineField({
+      name: "keywords",
+      title: "מילות מפתח משניות",
+      type: "array",
+      of: [{ type: "string" }],
+      description: "ביטויים נוספים להשלגת (לדוג' 'בונוסי קזינו', 'קזינו בטוח')",
+    }),
+    defineField({
+      name: "relatedCasinos",
+      title: "קזינו להתאים",
+      type: "array",
+      of: [{ type: "reference", to: [{ type: "casino" }] }],
+      description: "בחר את הקזינו להציג כקרטיסים ובטבלת השוואה",
+    }),
+    defineField({
+      name: "estimatedReadTime",
+      title: "זמן קריאה משוער (דקות)",
+      type: "number",
+      description: "יחושב אוטומטית (בעדכון הפוסט)",
+    }),
   ],
 });

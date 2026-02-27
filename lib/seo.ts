@@ -1,6 +1,6 @@
 const SITE_NAME = "Ask Gamblers";
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://askgamblers.co.il";
-const SITE_DESCRIPTION = "המדריך המלא לקזינו באינטרנט";
+const SITE_DESCRIPTION = "המדריך המלא לקזינו אונליין";
 
 export interface ArticlePost {
   title: string;

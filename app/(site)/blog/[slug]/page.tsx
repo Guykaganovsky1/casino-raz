@@ -19,6 +19,7 @@ import { BlogCard } from "@/components/ui/blog-card";
 import { Button } from "@/components/ui/button";
 import { SocialShare } from "@/components/ui/social-share";
 import { generateArticleSchema, generateBreadcrumbSchema } from "@/lib/seo";
+import { BlogGuideLayout } from "@/components/sections/blog-guide-layout";
 
 export const revalidate = 60;
 

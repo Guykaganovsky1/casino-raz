@@ -126,6 +126,12 @@ export interface BlogPost {
     name: string;
     slug: SanitySlug;
   }>;
+  // Mega-guide fields
+  isMegaGuide?: boolean;
+  targetKeyword?: string;
+  keywords?: string[];
+  relatedCasinos?: Casino[];
+  estimatedReadTime?: number;
 }
 
 // Software Provider document
