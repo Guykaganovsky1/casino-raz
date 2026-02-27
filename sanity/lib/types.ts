@@ -99,7 +99,6 @@ export interface Casino {
   affiliateLink?: string;
   featured?: boolean;
   clicks?: number;
-  faqs?: FAQItem[];
   categories?: Array<{
     _id: string;
     name: string;
